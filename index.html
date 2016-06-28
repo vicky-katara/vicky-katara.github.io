@@ -1,41 +1,56 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Coming Soon</title>
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-<link href="tools/style.css" rel="stylesheet" type="text/css" />
-<link href="tools/960.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script> 
-<script type="text/javascript" src="js/cufon-yui.js"></script>
-<script type="text/javascript" src="js/Adobe_Caslon_Pro_600.font.js"></script>
-<script type="text/javascript">
-	Cufon.replace('h1', {fontFamily: 'Adobe Caslon Pro', hover:true})
-</script>
-</head>
-<body>
-<div class="container_12" id="content">
-	<h1>Vicky Katara's Website</h1>
-	<h3>My website isn’t quite ready, but you can still...</h3>
-	<div class="main">
-		<div class="mcontent">
-			<div class="box mr20">
-				<h2>Contact me</h2>
-				<p>Phone : 984-215-8067<br/>
-Email : <a href="#">vicky.p.katara @ gmail.com</a></p>
-			</div>
-			<div class="box mr20">
-				<h2>Mail me</h2>
-				<p>2500 Avent Ferry Rd. #205, Raliegh NC, 27606</p>
-				<!-- <a class="get" href="#">Get Directions</a> -->
-			</div>
-			<div class="box2">
-				<h2>Check me out</h2>
-				<a href="https://github.com/vicky-katara"><img src="images/g.png" alt=""/></a>
-                <a href="https://www.linkedin.com/in/vickykatara"><img src="images/l.png" alt=""/></a>				
-			</div>			
-		</div>
-	</div>
-</div>
-</body>
-</html>
+<!doctype html>
+<title>Site Maintenance</title>
+<style>
+  body { text-align: center; padding: 150px; }
+  h1 { font-size: 50px; }
+  body { font: 20px Helvetica, sans-serif; color: #333; }
+  article { display: block; text-align: left; width: 650px; margin: 0 auto; }
+  a { color: #dc8100; text-decoration: none; }
+  a:hover { color: #333; text-decoration: none; }
+  /* Tooltip container */
+  .tooltip {
+      position: relative;
+      display: inline-block;
+      border: 1px black; /* If you want dots under the hoverable text */
+  }
+
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      padding: 5px 0;
+      border-radius: 6px;
+   
+      /* Position the tooltip text - see examples below! */
+      position: absolute;
+      z-index: 1;
+      left: -5px;
+      top: 105%;
+  }
+
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+      visibility: visible;
+  }
+</style>
+
+<article>
+    <h1>I&rsquo;ll be back soon!</h1>
+    <div>
+        <p>Sorry for the inconvenience but I&rsquo;m performing some maintenance at the moment. If you need to you can always get in touch with me, otherwise I&rsquo;ll be back online shortly!</p>
+        <p>&mdash; Vicky</p>
+        <h2>Check me out</h2>
+        <table><tr>
+        <td><a class="tooltip" href="mailto:vicky.p.katara@gmail.com"><img src="images/e.png" alt="Email"/><span class="tooltiptext">Email Vicky</span></a></td>
+        <td><a class="tooltip" href="https://github.com/vicky-katara"><img src="images/g.png" alt="Github Profile"/><span class="tooltiptext">Vicky's Github</span></a></td>
+        <td><a class="tooltip" href="https://www.linkedin.com/in/vickykatara"><img src="images/l.png" alt="LinkedIn Profile"/><span class="tooltiptext">Vicky's LinkedIn</span></a></td>
+        <td><a class="tooltip" href="https://github.com/vicky-katara/resumeLatex/raw/master/New%20Resume%20-%20One%20Page/Vicky_Katara-Resume.pdf" alt="Resume">
+            <img src="images/p.png" alt="Resume PDF"/><span class="tooltiptext">Vicky's Resume</span>
+            </a></td>
+        </tr>
+        <table>
+    </div>
+</article>
