@@ -1,7 +1,7 @@
 <!doctype html>
-<title>Site Maintenance</title>
+<title>Vicky - Site Maintenance</title>
 <style>
-  body { text-align: center; padding: 150px; }
+  body { text-align: center; padding: 100px; }
   h1 { font-size: 50px; }
   body { font: 20px Helvetica, sans-serif; color: #333; }
   article { display: block; text-align: left; width: 650px; margin: 0 auto; }
@@ -17,23 +17,25 @@
   /* Tooltip text */
   .tooltip .tooltiptext {
       visibility: hidden;
-      width: 120px;
+      width: auto;
       background-color: black;
       color: #fff;
       text-align: center;
-      padding: 5px 0;
-      border-radius: 6px;
+      padding: 2px 20px;
+      border-radius: 4px;
+      opacity:0.5;
    
       /* Position the tooltip text - see examples below! */
       position: absolute;
       z-index: 1;
-      left: -5px;
-      top: 105%;
+      right: -5px;
+      bottom: 100%;
   }
 
   /* Show the tooltip text when you mouse over the tooltip container */
   .tooltip:hover .tooltiptext {
       visibility: visible;
+      border-color: black;
   }
 </style>
 
@@ -43,8 +45,9 @@
         <p>Sorry for the inconvenience but I&rsquo;m performing some maintenance at the moment. If you need to you can always get in touch with me, otherwise I&rsquo;ll be back online shortly!</p>
         <p>&mdash; Vicky</p>
         <h2>Check me out</h2>
+        <div style="height:30%">&nbsp&nbsp</div>
         <table><tr>
-        <td><a class="tooltip" href="mailto:vicky.p.katara@gmail.com"><img src="images/e.png" alt="Email"/><span class="tooltiptext">Email Vicky</span></a></td>
+        <td><a class="tooltip" href="mailto:vicky.p.katara@gmail.com"><span class="tooltiptext">Email Vicky</span><img src="images/e.png" alt="Email"/></a></td>
         <td><a class="tooltip" href="https://github.com/vicky-katara"><img src="images/g.png" alt="Github Profile"/><span class="tooltiptext">Vicky's Github</span></a></td>
         <td><a class="tooltip" href="https://www.linkedin.com/in/vickykatara"><img src="images/l.png" alt="LinkedIn Profile"/><span class="tooltiptext">Vicky's LinkedIn</span></a></td>
         <td><a class="tooltip" href="https://github.com/vicky-katara/resumeLatex/raw/master/New%20Resume%20-%20One%20Page/Vicky_Katara-Resume.pdf" alt="Resume">
